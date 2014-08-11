@@ -85,19 +85,19 @@
         </g>
         <text
            style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-           x="297.61377"
+           x="295"
            y="433.09818"
            id="text3436-6-1-4-5-0"
            linespacing="125%">
           <tspan
              role="line"
-             x="297.61377"
+             x="295"
              y="433.09818"
              style="font-size:7px"
              id="tspan5247-1">Start-up Lab</tspan>
           <tspan
              role="line"
-             x="297.61377"
+             x="295"
              y="441.84818"
              id="tspan3440-5-4-4-0-34"
              style="font-size:7px">iversity/The DO School</tspan>
@@ -1976,15 +1976,15 @@
          linespacing="125%"
          id="text5578-4-4-6-4-0"
          y="450"
-         x="32.961414"
-         style="font-size:7px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="135"
+         style="font-size:7px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sans;-inkscape-font-specification:Sans"
          xml:space="preserve"><tspan
            y="450"
-           x="32.961414"
+           x="135"
            role="line"
-           id="tspan6896-8">Gamification Accomplishment</tspan><tspan
+           id="tspan6896-8">Gamification Design Accomplishment</tspan><tspan
            y="458.75"
-           x="32.961414"
+           x="135"
            role="line"
            id="tspan4978-9">Final Grade A (Top 1%)</tspan></text>
       <g
@@ -2206,11 +2206,11 @@
       <text
          id="text5578-4-4-6-4-7-9-4-6-3-2-8"
          y="432"
-         x="40"
-         style="font-size:7px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="130"
+         style="font-size:7px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sans;-inkscape-font-specification:Sans"
          xml:space="preserve"><tspan
            y="429.15894"
-           x="39.471172"
+           x="130"
            role="line"
            id="tspan4867-9-8-0-2-8">Finished Swedish B1 Level</tspan></text>
       <g
@@ -2240,15 +2240,15 @@
          linespacing="125%"
          id="text5578-4-4-6-4-7-9-4-6-0"
          y="407"
-         x="75"
-         style="font-size:7px;font-style:normal;font-weight:normal;text-align:right;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:right;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="135"
+         style="font-size:7px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sans;-inkscape-font-specification:Sans"
          xml:space="preserve"><tspan
            y="408.10352"
-           x="76.896385"
+           x="135"
            role="line"
            id="tspan6896-7-2-9-2-2">Pivotal Analytics</tspan><tspan
            y="416.85352"
-           x="76.896385"
+           x="135"
            role="line"
            id="tspan4867-9-8-6">Java aGPL Project</tspan></text>
     </g>
