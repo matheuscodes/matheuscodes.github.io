@@ -1097,7 +1097,7 @@
 		<path id="extra-diamond" d="m 0,48.5 m 5,0 -5,-5 0,0 -5,5 5,5 0,0 z" />
 		<text>
 			<tspan y="7" x="10">Current Month</tspan>
-			<tspan y="22" x="10">Courses and Scholarships</tspan>
+			<tspan y="22" x="10">Courses and Internships</tspan>
 			<tspan y="37" x="10">Personal initiatives</tspan>
 			<tspan y="52" x="10">Professional experience</tspan>
 		</text>
