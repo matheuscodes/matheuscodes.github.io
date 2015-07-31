@@ -1,0 +1,122 @@
+programmingSkills:
+  - java:
+    name: Java
+    percentage: 80%
+  - CCPP:
+    name: C/C++
+    percentage: 60%
+  - mysql:
+    name: MySQL
+    percentage: 60%
+  - html:
+    name: HTML and CSS
+    percentage: 80%
+  - sencha:
+    name: Sencha Touch
+    percentage: 60%
+  - javascript:
+    name: JavaScript
+    percentage: 60%
+  - xml:
+    name: XML
+    percentage: 80%	
+systemSkills:
+  - mining:
+    name: Data Mining
+    percentage: 60%
+  - ai:
+    name: Artificial Intelligence
+    percentage: 80%
+  - security:
+    name: Secure Comunication
+    percentage: 40%
+  - mobile:
+    name: Mobile Systems
+    percentage: 80%
+  - lbs:
+    name: Location Based Systems
+    percentage: 80%
+  - automation:
+    name: Test Automation
+    percentage: 60%
+  - web:
+    name: Webservices
+    percentage: 60%
+  - android:
+    name: Android
+    percentage: 60%
+  - hadoop:
+    name: Hadoop
+    percentage: 40%
+processSkills:
+  - planning:
+    name: Planning and prioritizing
+    percentage: 80%
+  - error:
+    name: Error and QA Management
+    percentage: 100%
+  - process:
+    name: Kanban and Scrum
+    percentage: 80%	
+  - scrumm:
+    name: Scrum Master
+    percentage: 60%
+  - agile:
+    name: Agile Project Management
+    percentage: 80%
+  - design:
+    name: Design Thinking
+    percentage: 40%
+  - lean:
+    name: Lean Startup Method
+    percentage: 60%
+  - leader:
+    name: Team Leadership
+    percentage: 80%
+  - coordinate:
+    name: Coordinating and Organization
+    percentage: 100%
+  - coach:
+    name: Coaching
+    percentage: 100%
+  - uml:
+    name: UML and Software Design
+    percentage: 100%
+otherSkills:
+  - eclipse:
+    name: Eclipse
+    percentage: 80%
+  - pivotal:
+    name: Pivotal Tracker
+    percentage: 100%
+  - jira:
+    name: JIRA
+    percentage: 80%
+  - maven:
+    name: Maven
+    percentage: 60%
+  - write:
+    name: Creative Writing
+    percentage: 60%
+  - product:
+    name: Product Specification
+    percentage: 80%
+  - techdoc:
+    name: Technical Documentation
+    percentage: 40%
+  - archery:
+    name: Archery
+    percentage: 60%
+languageSkills:
+  - pt:
+    name: Portuguese
+    proficiency: Native proficiency
+  - en:
+    name: English
+    proficiency: Full professional proficiency
+  - de:
+    name: German
+    proficiency: Professional working proficiency
+  - sv:
+    name: Swedish
+    proficiency: Elementary proficiency

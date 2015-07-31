@@ -1,0 +1,91 @@
+educationHistory:
+  - tu:
+    organization: Technische Universität Berlin
+    degree: Exchange Program
+    major: Technische Informatik
+    started: 2009
+    duration: (2009 - 2011)
+  - usp:
+    organization: Universidade de São Paulo
+    degree: Bachelor
+    major: Computer Engineering
+    started: 2004
+    duration: (2004 - 2008)
+courseHistory:
+  - archery:
+    title: Archery for Beginners
+    duration: 05.2015 - 07.2015
+    entity: BB-Bogenschießen Berlin
+  - gamification:
+    title: Gamification Design
+    duration: 03.2014 - 07.2014
+    entity: iversity/PlayJugo
+  - html5:
+    title: Developing Mobile HTML5 Apps
+    duration: 01.2014 - 05.2014
+    entity: iversity/Technische Hochschule Mittelhessen
+  - lead:
+    title: Team Leading
+    duration: 08.2013
+    entity: Thierry &amp; Partner Personnel Development
+  - kanban:
+    title: Software Development Process using Kanban
+    duration: 01.2012
+    entity: David J. Anderson Course via it-Agile
+  - scrum:
+    title: Professional Scrum Master Training
+    duration: 10.2011
+    entity: Scrum.org Course via Nokia GmbH Training
+  - csc:
+    title: II Congress of the Computing Systems Department
+    duration: 08.2008
+    entity: Institute of Math and Computer Science (University of São Paulo)
+  - ccec:
+    title: II Congress of the Computer Engineering Course
+    duration: 05.2008
+    entity: ICMC/EESC (University of São Paulo)
+  - teach:
+    title: I Workshop on Teaching Methods
+    duration: 10.2007
+    entity: Institute of Math and Computer Science (University of São Paulo)
+  - senai:
+    title: Repair and Maintenance of Computers and Networks
+    duration: 04.2002
+    entity: SENAI National Service of Industrial Learning
+eventHistory:
+  - lbs:
+    what: Achievement Award
+    when: 07.2012
+    who: Granted by Nokia Mobile Phones - Location Based Services
+  - globaljam:
+    what: Brazilian Site Organizer
+    when: 01.2009
+    who: Global Game Jam 2009
+  - siicusp16:
+    what: Java Development for a Distributed Game using CORBA
+    when: 11.2008
+    who: Published by 16th SIICUSP - International Symposium
+  - soccer:
+    what: Member of the Runner Up Team
+    when: 10.2008
+    who: 5th Latin American Robotics Competition
+  - gear:
+    what: Team Member
+    when: 2008
+    who: G.E.A.R - Advanced Robotics Research Group
+  - braziljam:
+    what: Organizer
+    when: 11.2007
+    who: Game Jam Brazil - <a href="https://www.youtube.com/watch?v=yL_FNHZwL3k" target="_blank">Watch Video!</a>
+  - ssc:
+    what: Elected Student Representative
+    when: 2007, 2008
+    who: Computing Systems Department's Council
+  - coc:
+    what: Elected Student Representative
+    when: 2006, 2007, 2008
+    who: Computer Engineering Course Organizational Committee
+  - siicusp14:
+    what: Genetic Algorithms for Evolution of Knowledge in Multi-agent Systems
+    when: 11.2006
+    who: Published by 14th SIICUSP - International Symposium

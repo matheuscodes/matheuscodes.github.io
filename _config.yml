@@ -1,0 +1,31 @@
+# Site settings
+title: Matheus Borges Teixeira
+description: Matheus' Profile
+favicon: /assets/img/avatar.JPG
+baseurl: 
+url: http://ddbullfrog.com
+rss_url: /pages/atom.xml
+paginate: 100
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+# Build settings
+markdown: kramdown
+
+# Author settings
+author:
+  name: Matheus Borges Teixeira
+  title: Project Manager, Software Engineer and Writer
+  address: Berlin, Germany
+  email: matheus.bt@gmail.com
+  link: http://matheuswrites.wordpress.com
+  xing: Matheus_BorgesTeixeira
+  github: matheuscodes
+  linkedin: matheusbt
+  twitter: matheuswrites
+  gavatar: /assets/img/avatar.JPG
