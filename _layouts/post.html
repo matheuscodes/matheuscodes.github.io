@@ -6,7 +6,7 @@ layout: default
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="col-md-8">
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>{{ page.company }}</h3>
+                <h3 class="title with-icon"><span class="fa fa-group cat-title"></span>{{ page.company }}</h3>
                 <ul class="timeline">
                         <li class="timeline-inverted">
                             {% if page.started %}
@@ -17,6 +17,15 @@ layout: default
                                     {% if page.title %}
                                         <h4 class="timeline-title">{{ page.title }} </h4>
                                     {% endif %}
+                                    {% if page.website %}
+									<p>
+                                        <small class="text-muted">
+                                            {% if page.website %}
+                                                <a href="{{ work.website }}" target="_blank">{{ page.website }}</a>
+                                            {% endif %}
+                                        </small>
+                                    </p>
+									{% endif %}
                                     <p>
                                         <small class="text-muted">
                                             {% if page.duration %}
@@ -29,28 +38,35 @@ layout: default
                                     </p>
                                 </div>
                                 <div class="timeline-body">
-                                    {% if page.content %}
-                                        <p>{{ page.content }}</p>
+                                    {% if content %}
+                                        <p>{{ content }}</p> 
                                     {% endif %}
                                 </div>
+								<p>
+									<small class="text-muted">
+										{% if page.keywords %}
+											<br/><br/><u>Keywords:</u> {{ page.keywords }}
+										{% endif %}
+									</small>
+                                </p>
                             </div>
                         </li>
                 </ul>
         </div>
         <div class="col-md-4">
-            {% if site.data.skills.programmingSkills %}
-                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Required Skills</h3>
+            {% if page.skills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span>Work Share</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.data.skills.programmingSkills %}
+                        {% for skill in page.skills %}
                             <li>
-                                {% if programmingSkill.name %}
-                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                {% if skill.name %}
+                                    <span class="caption-skill">{{ skill.name }}</span>
                                 {% endif %}
-                                {% if programmingSkill.percentage %}
+                                {% if skill.share %}
                                     <div class="progress">
-                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
+                                        <div class="progress-bar" style="width: {{ skill.share }}">
+                                            <span>{{ skill.share }} </span>
                                         </div>
                                     </div>
                                 {% endif %}
@@ -58,25 +74,21 @@ layout: default
                         {% endfor %}
                     </ul>
                 </div>
-            {% endif %}
-            {% if site.author.languages %}
                 <div class="deviter"></div>
-                <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
+            {% endif %}
+            {% if page.languages %}
+                <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span>Languages Used</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-strip">
-                        {% for language in site.author.languages %}
-                            {% if language.name %}
-                                {% if language.proficiency %}
-                                    <li>
-                                        <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">{{ language.proficiency }}</span>{{ language.name }}
-                                    </li>
-                                {% endif %}
-                            {% endif %}
+                        {% for language in page.languages %}
+							<li>
+								<i class="fa fa-check"></i> {{ language }}
+							</li>
                         {% endfor %}
                     </ul>
                 </div>
-            {% endif %}
             <div class="deviter"></div>
+            {% endif %}
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
             <div class="grid-block">
                 <iframe src="https://www.google.com/maps/embed/v1/place?q={{ page.location }}&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>

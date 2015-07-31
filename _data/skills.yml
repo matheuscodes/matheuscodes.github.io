@@ -26,7 +26,7 @@ systemSkills:
     percentage: 60%
   - ai:
     name: Artificial Intelligence
-    percentage: 80%
+    percentage: 60%
   - security:
     name: Secure Comunication
     percentage: 40%
