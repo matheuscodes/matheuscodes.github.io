@@ -114,12 +114,15 @@ CURRICULUM VITAE
 <td class="sidebar"/>
 <td>
 <strong>Name:</strong> Matheus Borges Teixeira <br />
-<strong>Nationality:</strong> Brazilian<br />
-<strong>Address: </strong>Torstr. 225 D, 10115 Berlin, Germany<br />
-<div class="contact"><strong>Phone: </strong>+49 151 1226 2903 <strong>Skype: </strong>matheusspeaks</div>
-<div class="contact"><strong>Email:</strong> matheus.bt@gmail.com</div>
+<strong>Location:</strong> {{ site.author.address }} <br />
+<!-- Hiding contact info
+<strong>Nationality: </strong>...<br />
+<strong>Address: </strong>...<br />
+<strong>Phone: </strong>...<strong> Skype: </strong>...<br />
+<strong>Email: </strong>...<br />
+  -->
+<strong>Further Info: <a href="https://matheuscodes.github.io/">https://matheuscodes.github.io/</a><br />
 <strong>Code Portfolio:</strong> <a href="https://github.com/matheuscodes/">https://github.com/matheuscodes/</a><br />
-<br/>
 </td>
 
 <tr>
@@ -149,13 +152,14 @@ Quality oriented engineer looking for positions that require organization and co
 </td>
 <tr>
 
-<tr height="30" />
+<tr height="10" />
 
 			{% if site.data.education.educationHistory %}
                 <tr>
 				<td class="session" colspan="2">
 				EDUCATION
 				</td>
+				</tr>
                     {% for education in site.data.education.educationHistory %}
 						<tr>
 						<td class="sidebar" />
@@ -185,6 +189,23 @@ Quality oriented engineer looking for positions that require organization and co
 
 <tr height="10" />
 
+			{% if site.data.skills %}
+				<tr>
+				<td class="session" colspan="2">
+				LANGUAGES
+				</td>
+				<tr>
+				
+				<tr>
+				<td class="sidebar" />
+				<td>
+				{% for language in site.data.skills.languageSkills %}
+					<strong> {{language.name}} </strong> ({{ language.proficiency }})
+				{% endfor %}
+				</td>
+				</tr>
+			{% endif %}
+<tr height="10" />
 <!-- TODO move to _data too -->
 <tr>
 <td class="session" colspan="2">
@@ -430,7 +451,7 @@ For more projects please check my code portfolio (<a href="https://github.com/ma
 		{% endfor %}
 	{% endif %}
 
-<tr height="10" />
+<tr height="30" />
 
 	{% if site.posts %}
 		<tr>
@@ -462,6 +483,8 @@ For more projects please check my code portfolio (<a href="https://github.com/ma
 		{% endfor %}
 	{% endif %}
 
+<tr height="10" />
+	
 	{% if site.data.education.eventHistory %}
 		<tr>
 		<td class="session" colspan="2">
@@ -493,7 +516,6 @@ For more projects please check my code portfolio (<a href="https://github.com/ma
 </table>
 <script>
 window.print();
-window.close();
 </script>
 </body>
 </html>
