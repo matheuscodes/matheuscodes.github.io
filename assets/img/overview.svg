@@ -10,7 +10,7 @@
    id="lebenslauf"
    version="1.1"
    width="100%"
-   viewBox="0 0 780 460"
+   viewBox="0 0 825 460"
    preserveAspectRatio="xMidYMid meet"
    height="100%">
   <style type="text/css" >
@@ -223,7 +223,7 @@
 	]]>
   </style>
   <g id="main">
-    <g id="dates" transform="translate(10,90)">
+    <g id="dates" transform="translate(45,90)">
 		<text>
 			<tspan y="-5" x="0">2004</tspan>
 		</text>
@@ -252,7 +252,7 @@
 			<tspan y="183" x="110">2015</tspan>
 		</text>
     </g>
-    <g id="g6196">
+    <g id="all"  transform="translate(45,0)">
       <g id="years2004to2009" transform="translate(10,90)">
         <path id="connect" style="stroke:#000000" d="m 0,0 720,0" />
         <g id="usp" class="university">
