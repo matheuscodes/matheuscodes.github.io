@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -70,15 +70,16 @@ ul{
 .main{
 	border-bottom:2;
 	border-bottom-style:double;
-	border-bottom-color:#249EBD;
+	border-bottom-color:#55AA44;
 	text-align:center;
 	font-size:150%;
 	font-weight:bold;
-	color: #249EBD;
+	color: #55AA44;
 }
 
 .experience {
-	font-size:80%;
+	font-size:60%;
+	white-space: nowrap;
 }
 
 .alignright {
@@ -198,7 +199,7 @@ Quality oriented engineer equipped with organization and communication skills, p
 				LANGUAGES
 				</td>
 				<tr>
-				
+
 				<tr>
 				<td class="sidebar" />
 				<td>
@@ -219,8 +220,8 @@ INTERESTS
 <tr>
 <td class="sidebar" />
 <td>
-<strong>Professionally:</strong> Project Management, Quality Assurance, Game Design, Artificial intelligence, Robotics.<br />
-<strong>Leisure: </strong>Digital and Roleplaying Games, Archery, Movies, Creative Writing, Vegetarian or Vegan Cooking.
+<strong>Professionally:</strong> Project Management, Quality Assurance, Game Design, Artificial Intelligence, Robotics.<br />
+<strong>Leisure: </strong>Digital and Roleplaying Games, Archery, Movies, Creative Writing, Vegan Cooking.
 </td>
 </tr>
 
@@ -232,7 +233,7 @@ INTERESTS
 				MAIN SKILLS
 				</td>
 				<tr>
-				
+
 				<tr>
 				<td class="sidebar" />
 				<td>
@@ -252,7 +253,7 @@ INTERESTS
 							{% if skill.percentage %}
 								<div> <!--styles in CSS TODO-->
 									<div class="skillbar" style="width: {{ skill.percentage }};">
-										<span>{{ skill.percentage }} </span>
+										<span>{{ skill.years }}</span>
 									</div>
 								</div>
 							{% endif %}
@@ -267,7 +268,7 @@ INTERESTS
 							{% if skill.percentage %}
 								<div> <!--styles in CSS TODO-->
 									<div class="skillbar" style="width: {{ skill.percentage }};">
-										<span>{{ skill.percentage }} </span>
+										<span>{{ skill.years }}</span>
 									</div>
 								</div>
 							{% endif %}
@@ -281,7 +282,7 @@ INTERESTS
 							{% endif %}
 							{% if skill.percentage %}
 									<div class="skillbar" style="width: {{ skill.percentage }};">
-										<span>{{ skill.percentage }} </span>
+										<span>{{ skill.years }}</span>
 									</div>
 							{% endif %}
 							<br/>
@@ -294,7 +295,7 @@ INTERESTS
 							{% endif %}
 							{% if skill.percentage %}
 									<div class="skillbar" style="width: {{ skill.percentage }};">
-										<span>{{ skill.percentage }} </span>
+										<span>{{ skill.years }}</span>
 									</div>
 							{% endif %}
 							<br/>
@@ -305,7 +306,7 @@ INTERESTS
 				</td>
 				</tr>
 			{% endif %}
-			
+
 <!-- TODO Move this to Jekyll too -->
 <tr>
 <td class="session" colspan="2">
@@ -325,7 +326,7 @@ Arkanos Vocabulary Builder &copy; 2014
 <td class="sidebar" />
 <td class="company">
 AVB is an Android application for browsing, improving and training vocabulary. The base for learning is in English, using Wordnet 3.0, but the translations are compiled through logically associating words from another database to the existing terms and meanings inside Wordnet. Used to train and learn Android Programming. Licensed under GPLv3.<br/>
-<a href="https://avb.cloudcontrolled.com/">https://avb.cloudcontrolled.com/</a>
+<a href="https://github.com/matheuscodes/avb/">https://github.com/matheuscodes/avb/</a>
 <br/><br/>
 </td>
 </tr>
@@ -342,7 +343,7 @@ Pivotal Analytics &copy; 2013-2014
 <td class="sidebar" />
 <td class="company">
 Pivotal Analytics is a web tool for statistical observation and performance measurement of Pivotal Projects. Metrics available are starvation, velocity, throughput, burn-down charts, individual developer load, performance and story distribution per label. Uses Java Servlets and Pivotal API v5 to fetch data. Licensed under aGPL.<br/>
-<a href="https://pivotalanalytics.cloudcontrolled.com/">https://pivotalanalytics.cloudcontrolled.com/</a>
+<a href="https://github.com/matheuscodes/pivotal_analytics/">https://github.com/matheuscodes/pivotal_analytics/</a>
 <br/><br/>
 </td>
 </tr>
@@ -360,7 +361,7 @@ Arkanos Organizer Suite &copy; 2014
 <td class="sidebar" />
 <td class="company">
 AOS is a tool for managing personal goals. The user can add goals, break them into tasks and log work so statistics can be calculated such as productivity, completion, focus, etc. Uses Sencha Touch 2.3.1 bundled with its own Java Servlet REST API and MySQL for storage. Used as final project for HTML5/Sencha course. Licensed under aGPL.<br/>
-<a href="https://aos.cloudcontrolled.com/">https://aos.cloudcontrolled.com/</a>
+<a href="https://github.com/matheuscodes/aos/">https://github.com/matheuscodes/aos/</a>
 <br/><br/>
 </td>
 </tr>
@@ -420,7 +421,7 @@ Locke is a software for managing a rental store. It supports CDs, DVDs, VHSes wi
 <tr>
 <td class="sidebar" />
 <td class="company">
-For more projects please check my code portfolio (<a href="https://github.com/matheuscodes">https://github.com/matheuscodes</a>) or blog (<a href="http://matheuswrites.wordpress.com">http://matheuswrites.wordpress.com</a>).<br/>
+For more projects please check my code portfolio (<a href="https://github.com/matheuscodes">https://github.com/matheuscodes</a>).<br/>
 </td>
 </tr>
 
@@ -432,7 +433,7 @@ For more projects please check my code portfolio (<a href="https://github.com/ma
 		TRAININGS, COURSES AND WORKSHOPS
 		</td>
 		<tr>
-		
+
 		{% for course in site.data.education.courseHistory %}
 			<tr>
 			<td class="sidebar" />
@@ -487,14 +488,14 @@ For more projects please check my code portfolio (<a href="https://github.com/ma
 	{% endif %}
 
 <tr height="10" />
-	
+
 	{% if site.data.education.eventHistory %}
 		<tr>
 		<td class="session" colspan="2">
 		OTHER PERSONAL ACCOMPLISHMENTS
 		</td>
 		<tr>
-		
+
 		{% for event in site.data.education.eventHistory %}
 			<tr>
 			<td class="sidebar" />

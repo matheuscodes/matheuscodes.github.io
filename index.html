@@ -9,7 +9,7 @@ layout: default
 				<a href="/assets/img/overview.svg"><img src="/assets/img/overview.svg" width="100%" /></a>
             </div>
 			<div class="deviter"></div>
-				
+
             {% if site.posts %}
                 <h3 class="title with-icon"><span class="fa fa-history cat-title"></span>Work and Research Experience</h3>
                 <ul class="timeline">
@@ -52,7 +52,7 @@ layout: default
                                 </div>
                                 <div class="timeline-body">
                                     {% if work.description %}
-                                        <p>{{ work.description }}</p> 
+                                        <p>{{ work.description }}</p>
                                     {% endif %}
                                 </div>
 								<p>
@@ -68,10 +68,10 @@ layout: default
                     {% endfor %}
                 </ul>
             {% endif %}
-            
+
         </div>
         <div class="col-md-4">
-            
+
             {% if site.data.skills.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 <div class="grid-block">
@@ -84,7 +84,7 @@ layout: default
                                 {% if programmingSkill.percentage %}
                                     <div class="progress">
                                         <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
+                                            <span>{{ programmingSkill.years }}</span>
                                         </div>
                                     </div>
                                 {% endif %}
@@ -93,7 +93,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
 			{% if site.data.skills.processSkills %}
                 <h3 class="title with-icon"><span class="fa  fa-dashboard cat-title"></span> Process and People Skills</h3>
                 <div class="grid-block">
@@ -106,7 +106,7 @@ layout: default
                                 {% if skill.percentage %}
                                     <div class="progress">
                                         <div class="progress-bar" style="width: {{ skill.percentage }}">
-                                            <span>{{ skill.percentage }} </span>
+                                            <span>{{ skill.years }}</span>
                                         </div>
                                     </div>
                                 {% endif %}
@@ -115,7 +115,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
 			{% if site.data.skills.systemSkills %}
                 <h3 class="title with-icon"><span class="fa  fa-cog cat-title"></span> System Skills</h3>
                 <div class="grid-block">
@@ -128,7 +128,7 @@ layout: default
                                 {% if skill.percentage %}
                                     <div class="progress">
                                         <div class="progress-bar" style="width: {{ skill.percentage }}">
-                                            <span>{{ skill.percentage }} </span>
+                                            <span>{{ skill.years }}</span>
                                         </div>
                                     </div>
                                 {% endif %}
@@ -137,7 +137,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
 			{% if site.data.skills.otherSkills %}
                 <h3 class="title with-icon"><span class="fa fa-share cat-title"></span> Other Skills</h3>
                 <div class="grid-block">
@@ -150,7 +150,7 @@ layout: default
                                 {% if skill.percentage %}
                                     <div class="progress">
                                         <div class="progress-bar" style="width: {{ skill.percentage }}">
-                                            <span>{{ skill.percentage }} </span>
+                                            <span>{{ skill.years }}</span>
                                         </div>
                                     </div>
                                 {% endif %}
@@ -159,7 +159,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
             {% if site.data.skills.languageSkills %}
                 <div class="deviter"></div>
                 <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
@@ -177,9 +177,9 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
 			<div class="deviter"></div>
-			
+
 			{% if site.data.education.courseHistory %}
                 <h3 class="title with-icon"><span class="fa fa-certificate cat-title"></span> Courses and Certificates</h3>
                 <div class="grid-block">
@@ -193,7 +193,7 @@ layout: default
                                     <p>
                                         <small class="text-muted">
                                             {% if course.entity %}
-                                                {{ course.entity }} | 
+                                                {{ course.entity }} |
                                             {% endif %}
 											<i class="fa fa-calendar"></i> {{ course.duration }}
                                         </small>
@@ -204,7 +204,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
 			{% if site.data.education.educationHistory %}
                 <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
                 <ul class="timeline">
@@ -245,7 +245,7 @@ layout: default
                     {% endfor %}
                 </ul>
             {% endif %}
-			
+
 			{% if site.data.education.eventHistory %}
                 <h3 class="title with-icon"><span class="fa  fa-angle-double-right cat-title"></span> Other Personal Accomplishments </h3>
                 <div class="grid-block">
@@ -270,7 +270,7 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-			
+
             <div class="deviter"></div>
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
             <div class="grid-block">

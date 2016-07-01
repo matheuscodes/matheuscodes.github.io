@@ -1,112 +1,147 @@
 programmingSkills:
-  - java:
-    name: Java
-    percentage: 80%
-  - CCPP:
-    name: C/C++
-    percentage: 60%
+  - javascript:
+    name: Javascript
+    percentage: 33%
+    years: 1 year
+  - nodejs:
+    name: NodeJS/Express
+    percentage: 33%
+    years: 1 year
+  - xml:
+    name: XML and JSON
+    percentage: 50%
+    years: 1½ years
   - mysql:
     name: MySQL
-    percentage: 60%
+    percentage: 66%
+    years: 2 years
   - html:
     name: HTML and CSS
-    percentage: 80%
-  - sencha:
-    name: Sencha Touch
-    percentage: 60%
-  - javascript:
-    name: JavaScript
-    percentage: 60%
-  - xml:
-    name: XML
-    percentage: 80%	
+    percentage: 66%
+    years: 2 years
+  - java:
+    name: Java
+    percentage: 50%
+    years: 1½ years
+  - CCPP:
+    name: C/C++
+    percentage: 100%
+    years: 3 years
 systemSkills:
   - mining:
     name: Data Mining
-    percentage: 60%
+    percentage: 50%
+    years: 2 years
   - ai:
     name: Artificial Intelligence
-    percentage: 60%
+    percentage: 50%
+    years: 2 years
   - security:
     name: Secure Comunication
-    percentage: 40%
+    percentage: 13%
+    years: ½ year
   - mobile:
-    name: Mobile Systems
-    percentage: 80%
+    name: Mobile Applications
+    percentage: 100%
+    years: 4 years
   - lbs:
-    name: Location Based Systems
+    name: Location Based Services
     percentage: 80%
+    years: 3½ years
   - automation:
     name: Test Automation
-    percentage: 60%
+    percentage: 50%
+    years: 2 years
   - web:
-    name: Webservices
-    percentage: 60%
+    name: Online/Web
+    percentage: 50%
+    years: 2 years
+  - hadoop:
+    name: REST APIs
+    percentage: 25%
+    years: 1 year
   - android:
     name: Android
-    percentage: 60%
-  - hadoop:
-    name: Hadoop
-    percentage: 40%
+    percentage: 13%
+    years: ½ year
 processSkills:
   - planning:
     name: Planning and prioritizing
-    percentage: 80%
+    percentage: 50%
+    years: 2 years
   - error:
     name: Error and QA Management
     percentage: 100%
+    years: 4 years
   - process:
     name: Kanban and Scrum
-    percentage: 80%	
+    percentage: 75%
+    years: 3 years
   - scrumm:
     name: Scrum Master
-    percentage: 60%
+    percentage: 25%
+    years: 1 year
   - agile:
     name: Agile Project Management
-    percentage: 80%
+    percentage: 100%
+    years: 4 years
   - design:
     name: Design Thinking
-    percentage: 40%
+    percentage: 13%
+    years: ½ year
   - lean:
     name: Lean Startup Method
-    percentage: 60%
+    percentage: 13%
+    years: ½ year
   - leader:
-    name: Team Leadership
-    percentage: 80%
+    name: Team Leading
+    percentage: 75%
+    years: 3 years
   - coordinate:
-    name: Coordinating and Organization
-    percentage: 100%
+    name: Coordinating and Organizing
+    percentage: 50%
+    years: 2 years
   - coach:
     name: Coaching
-    percentage: 100%
+    percentage: 75%
+    years: 3 years
   - uml:
     name: UML and Software Design
-    percentage: 100%
+    percentage: 25%
+    years: 1 year
 otherSkills:
   - eclipse:
     name: Eclipse
-    percentage: 80%
+    percentage: 25%
+    years: 1½ years
   - pivotal:
     name: Pivotal Tracker
-    percentage: 100%
+    percentage: 16%
+    years: 1 year
   - jira:
     name: JIRA
-    percentage: 80%
+    percentage: 66%
+    years: 4 years
   - maven:
-    name: Maven
-    percentage: 60%
+    name: Maven and NPM
+    percentage: 16%
+    years: 1 year
   - write:
     name: Creative Writing
-    percentage: 60%
+    percentage: 100%
+    years: 6 years
   - product:
     name: Product Specification
-    percentage: 80%
+    percentage: 33%
+    years: 2 years
   - techdoc:
     name: Technical Documentation
-    percentage: 40%
+    percentage: 16%
+    years: 1 year
   - archery:
     name: Archery
-    percentage: 60%
+    percentage: 16%
+    years: 1 year
 languageSkills:
   - pt:
     name: Portuguese
