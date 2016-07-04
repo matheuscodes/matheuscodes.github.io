@@ -2,7 +2,7 @@
 title: Matheus Borges Teixeira
 description: Matheus' Profile
 favicon: /assets/img/avatar.JPG
-baseurl: 
+baseurl:
 url: http://ddbullfrog.com
 rss_url: /pages/atom.xml
 
@@ -19,7 +19,7 @@ markdown: kramdown
 # Author settings
 author:
   name: Matheus Borges Teixeira
-  title: CTO, Software Engineer and Archer
+  title: Project Manager, Software Engineer and Archer
   address: Berlin, Germany
   email: matheus.bt@gmail.com
   link: http://matheuswrites.wordpress.com
