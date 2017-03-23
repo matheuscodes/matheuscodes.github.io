@@ -1,45 +1,45 @@
 programmingSkills:
   - javascript:
     name: Javascript
-    percentage: 33%
-    years: 1 year
+    percentage: 70%
+    years: 2½ years
   - nodejs:
-    name: NodeJS and Express
-    percentage: 33%
+    name: NodeJS
+    percentage: 60%
+    years: 2 years
+  - react:
+    name: React
+    percentage: 30%
     years: 1 year
-  - xml:
-    name: XML and JSON
-    percentage: 50%
-    years: 1½ years
   - mysql:
     name: MySQL
-    percentage: 66%
-    years: 2 years
-  - html:
-    name: HTML and CSS
-    percentage: 66%
-    years: 2 years
+    percentage: 70%
+    years: 2½ years
   - java:
     name: Java
-    percentage: 50%
-    years: 1½ years
+    percentage: 100%
+    years: 3½ years
+  - jpa:
+    name: Hibernate and JPA
+    percentage: 30%
+    years: 1 year
+  - spring:
+    name: Spring and Jersey
+    percentage: 30%
+    years: 1 year
   - CCPP:
     name: C/C++
-    percentage: 100%
+    percentage: 80%
     years: 3 years
 systemSkills:
   - mining:
-    name: Data Mining
-    percentage: 50%
-    years: 2 years
+    name: Data Processing and Mining
+    percentage: 75%
+    years: 3 years
   - ai:
     name: Artificial Intelligence
     percentage: 50%
     years: 2 years
-  - security:
-    name: Secure Comunication
-    percentage: 13%
-    years: ½ year
   - mobile:
     name: Mobile Applications
     percentage: 100%
@@ -49,21 +49,37 @@ systemSkills:
     percentage: 80%
     years: 3½ years
   - automation:
-    name: Test Automation
-    percentage: 50%
-    years: 2 years
-  - web:
-    name: Online/Web
-    percentage: 50%
-    years: 2 years
-  - hadoop:
-    name: REST APIs
+    name: QA and Test Automation
+    percentage: 60%
+    years: 2½ years
+  - uml:
+    name: UML and Software Design
     percentage: 25%
     years: 1 year
-  - android:
-    name: Android
-    percentage: 13%
-    years: ½ year
+  - web:
+    name: Online/Web Applications
+    percentage: 85%
+    years: 3½ years
+  - api:
+    name: REST APIs
+    percentage: 35%
+    years: 1½ year
+  - xml:
+    name: Data Storage Formats (JSON, CSV, XML, ...)
+    percentage: 60%
+    years: 2½ years
+  - aws:
+    name: AWS and Server Infrastructure
+    percentage: 35%
+    years: 1½ years
+  - spark:
+    name: Distributed Applications
+    percentage: 25%
+    years: 1 year
+  - architecture:
+    name: Software Architecture Design
+    percentage: 50%
+    years: 2 year
 processSkills:
   - planning:
     name: Planning and prioritizing
@@ -105,27 +121,27 @@ processSkills:
     name: Coaching
     percentage: 75%
     years: 3 years
-  - uml:
-    name: UML and Software Design
-    percentage: 25%
-    years: 1 year
 otherSkills:
-  - eclipse:
-    name: Eclipse
-    percentage: 25%
-    years: 1½ years
+  - ides:
+    name: IDEs Eclipse, IntelliJ and Atom
+    percentage: 50%
+    years: 3½ years
   - pivotal:
     name: Pivotal Tracker
     percentage: 16%
     years: 1 year
+  - jenkins:
+    name: Jenkins
+    percentage: 25%
+    years: 1½ year
   - jira:
     name: JIRA
     percentage: 66%
     years: 4 years
   - maven:
     name: Maven and NPM
-    percentage: 16%
-    years: 1 year
+    percentage: 33%
+    years: 2 years
   - write:
     name: Creative Writing
     percentage: 100%
@@ -140,8 +156,16 @@ otherSkills:
     years: 1 year
   - archery:
     name: Archery
-    percentage: 16%
-    years: 1 year
+    percentage: 33%
+    years: 2 years
+  - android:
+    name: Android
+    percentage: 8%
+    years: ½ year
+  - security:
+    name: Security
+    percentage: 8%
+    years: ½ year
 languageSkills:
   - pt:
     name: Portuguese
