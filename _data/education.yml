@@ -12,6 +12,18 @@ educationHistory:
     started: 2004
     duration: (2004 - 2008)
 courseHistory:
+#  - basis:
+#    title: Basis Lehrgang
+#    duration: 11.2018 - 01.2019
+#    entity: Landessportbund Berlin e.V.
+  - schießsportleiter:
+    title: Schießsportleiter
+    duration: 11.2018
+    entity: Schützenverband Berlin-Brandenburg e.V.
+  - trainerC:
+    title: Trainer-C Basis Bogen
+    duration: 09.2018
+    entity: Schützenverband Berlin-Brandenburg e.V.
   - archery:
     title: Archery course for Beginners
     duration: 05.2015 - 07.2015
