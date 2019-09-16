@@ -7,18 +7,22 @@ programmingSkills:
     name: NodeJS
     percentage: 100%
     years: 5 years
+  - mysql:
+    name: SQL Databases (Athena, Postgres, MySQL, Oracle)
+    percentage: 90%
+    years: 4.5 years
+  - java:
+    name: Java
+    percentage: 60%
+    years: 3 years
+  - CCPP:
+    name: C/C++
+    percentage: 60%
+    years: 3 years
   - react:
     name: React
     percentage: 20%
     years: 1 year
-  - mysql:
-    name: SQL Databases (Athena, MySQL, Oracle)
-    percentage: 80%
-    years: 4 years
-  - java:
-    name: Java
-    percentage: 70%
-    years: 3½ years
   - jpa:
     name: Hibernate and JPA
     percentage: 20%
@@ -27,141 +31,125 @@ programmingSkills:
     name: Spring and Jersey
     percentage: 20%
     years: 1 year
-  - CCPP:
-    name: C/C++
-    percentage: 60%
-    years: 3 years
   - python:
     name: Python
-    percentage: 10%
-    years: ½ year
+    percentage: 20%
+    years: 1 year
 systemSkills:
-  - mining:
-    name: Data Processing and Mining
-    percentage: 80%
-    years: 5 years
-  - ai:
-    name: Artificial Intelligence
-    percentage: 30%
-    years: 2 years
-  - mobile:
-    name: Mobile Applications
-    percentage: 60%
-    years: 4 years
-  - lbs:
-    name: Location Based Services
-    percentage: 55%
-    years: 3½ years
-  - automation:
-    name: QA and Test Automation
-    percentage: 40%
-    years: 2½ years
-  - uml:
-    name: UML and Software Design
-    percentage: 25%
-    years: 3 year
   - web:
     name: Online/Web Applications
     percentage: 100%
-    years: 6 years
+    years: 5 years
+  - mining:
+    name: Data Processing and Mining
+    percentage: 80%
+    years: 4 years
+  - architecture:
+    name: Software Architecture Design
+    percentage: 80%
+    years: 4 years
+  - lbs:
+    name: Location Based Services
+    percentage: 80%
+    years: 4 years
+  - mobile:
+    name: Mobile Applications
+    percentage: 60%
+    years: 3 years
   - api:
     name: REST APIs
-    percentage: 50%
-    years: 3 year
-  - xml:
-    name: Data Storage/Formats/Serialization (JSON, CSV, XML, ...)
-    percentage: 80%
-    years: 5 years
+    percentage: 60%
+    years: 3 years
+  - uml:
+    name: UML and Software Design
+    percentage: 60%
+    years: 3 years
   - aws:
     name: AWS and Server Infrastructure
-    percentage: 50%
+    percentage: 60%
     years: 3 years
   - spark:
     name: Distributed Applications and Microservices
-    percentage: 50%
-    years: 3 years
-  - architecture:
-    name: Software Architecture Design
-    percentage: 50%
-    years: 4 years
-processSkills:
-  - planning:
-    name: Planning and prioritizing
     percentage: 60%
     years: 3 years
-  - error:
-    name: Error and QA Management
-    percentage: 80%
-    years: 4 years
-  - process:
-    name: Kanban and Scrum
-    percentage: 100%
-    years: 5 years
-  - scrumm:
-    name: Scrum Master
-    percentage: 20%
-    years: 1 year
+  - ai:
+    name: Artificial Intelligence
+    percentage: 50%
+    years: 2.5 years
+  - automation:
+    name: Quality and Test Automation
+    percentage: 50%
+    years: 2.5 years
+processSkills:
   - agile:
     name: Agile Project Management
     percentage: 100%
     years: 5 years
-#  - design:
-#    name: Design Thinking
-#    percentage: 13%
-#    years: ½ year
-#  - lean:
-#    name: Lean Startup Method
-#    percentage: 13%
-#    years: ½ year
+  - coach:
+    name: Coaching
+    percentage: 100%
+    years: 5 years
+  - process:
+    name: Kanban and Scrum
+    percentage: 100%
+    years: 5 years
+  - error:
+    name: Error and quality Management
+    percentage: 80%
+    years: 4 years
+  - planning:
+    name: Planning and prioritizing
+    percentage: 60%
+    years: 3 years
   - leader:
     name: Team Leading
     percentage: 60%
     years: 3 years
   - coordinate:
     name: Coordinating and Organizing
-    percentage: 40%
-    years: 2 years
-  - coach:
-    name: Coaching
-    percentage: 100%
-    years: 5 years
-otherSkills:
-  - ides:
-    name: IDEs Eclipse, IntelliJ and Atom
-    percentage: 50%
-    years: 4 years
-  - pivotal:
-    name: Pivotal Tracker
-    percentage: 16%
-    years: 1 year
-  - jenkins:
-    name: Jenkins
-    percentage: 25%
+    percentage: 60%
     years: 3 years
-  - jira:
-    name: JIRA
-    percentage: 66%
-    years: 5 years
-  - maven:
-    name: Maven and NPM
-    percentage: 33%
-    years: 2 years
+  - scrumm:
+    name: Scrum Master
+    percentage: 20%
+    years: 1 year
+otherSkills:
   - write:
     name: Creative Writing
     percentage: 100%
-    years: 6 years
+    years: 5 years
+  - archery:
+    name: Archery
+    percentage: 80%
+    years: 4 years
+  - ides:
+    name: IDEs Eclipse, IntelliJ and Atom
+    percentage: 80%
+    years: 4 years
+  - jira:
+    name: JIRA
+    percentage: 80%
+    years: 4 years
+  - jenkins:
+    name: Jenkins
+    percentage: 60%
+    years: 3 years
+  - maven:
+    name: Maven, Helm and NPM
+    percentage: 60%
+    years: 3 years
   - product:
     name: Product Specification
-    percentage: 33%
+    percentage: 60%
     years: 3 years
   - techdoc:
     name: Technical Documentation
-    percentage: 16%
-    years: 3 year
-  - archery:
-    name: Archery
-    percentage: 33%
-    years: 4 years
+    percentage: 40%
+    years: 2 year
+  - kubernetes:
+    name: Kubernetes
+    percentage: 20%
+    years: 1 year
 #  - android:
 #    name: Android
 #    percentage: 8%

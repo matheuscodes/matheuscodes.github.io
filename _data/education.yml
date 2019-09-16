@@ -12,10 +12,10 @@ educationHistory:
     started: 2004
     duration: (2004 - 2008)
 courseHistory:
-#  - basis:
-#    title: Basis Lehrgang
-#    duration: 11.2018 - 01.2019
-#    entity: Landessportbund Berlin e.V.
+  - basis:
+    title: Basislehrgang Trainer Ausbildung
+    duration: 11.2018 - 01.2019
+    entity: Landessportbund Berlin e.V.
   - schießsportleiter:
     title: Schießsportleiter
     duration: 11.2018
