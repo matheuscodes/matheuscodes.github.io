@@ -1,173 +1,176 @@
 programmingSkills:
   - javascript:
-    name: Javascript
+    name: Javascript/Typescript
     percentage: 100%
-    years: 5 years
+    years: 9 years
   - nodejs:
-    name: NodeJS
+    name: Node.js
     percentage: 100%
-    years: 5 years
+    years: 9 years
   - mysql:
     name: SQL Databases (Athena, Postgres, MySQL, Oracle)
     percentage: 90%
-    years: 4.5 years
+    years: 8.5 years
+  - aws:
+    name: AWS (Kinesis, DynamoDB, Lambda, usw.)
+    percentage: 80%
+    years: 7.5 years
   - java:
     name: Java
-    percentage: 60%
-    years: 3 years
-  - CCPP:
-    name: C/C++
-    percentage: 60%
-    years: 3 years
+    percentage: 75%
+    years: 7 years
   - react:
     name: React
-    percentage: 20%
-    years: 1 year
-  - jpa:
-    name: Hibernate and JPA
-    percentage: 20%
-    years: 1 year
+    percentage: 50%
+    years: 5 year
   - spring:
-    name: Spring and Jersey
-    percentage: 20%
-    years: 1 year
+    name: Spring Boot
+    percentage: 50%
+    years: 5 years
+  - kotlin:
+    name: Kotlin
+    percentage: 40%
+    years: 4 years
+  - CCPP:
+    name: C/C++
+    percentage: 30%
+    years: 3 years
   - python:
     name: Python
-    percentage: 20%
+    percentage: 10%
     years: 1 year
 systemSkills:
   - web:
     name: Online/Web Applications
     percentage: 100%
-    years: 5 years
-  - mining:
-    name: Data Processing and Mining
-    percentage: 80%
-    years: 4 years
+    years: 9 years
   - architecture:
     name: Software Architecture Design
     percentage: 80%
-    years: 4 years
-  - lbs:
-    name: Location Based Services
-    percentage: 80%
-    years: 4 years
-  - mobile:
-    name: Mobile Applications
-    percentage: 60%
-    years: 3 years
+    years: 8 years
   - api:
     name: REST APIs
-    percentage: 60%
-    years: 3 years
+    percentage: 70%
+    years: 7 years
   - uml:
     name: UML and Software Design
-    percentage: 60%
-    years: 3 years
+    percentage: 70%
+    years: 7 years
   - aws:
     name: AWS and Server Infrastructure
-    percentage: 60%
-    years: 3 years
+    percentage: 70%
+    years: 7 years
   - spark:
     name: Distributed Applications and Microservices
-    percentage: 60%
-    years: 3 years
-  - ai:
-    name: Artificial Intelligence
-    percentage: 50%
-    years: 2.5 years
+    percentage: 70%
+    years: 7 years
   - automation:
     name: Quality and Test Automation
     percentage: 50%
+    years: 5 years
+  - mining:
+    name: Data Processing and Mining
+    percentage: 40%
+    years: 4 years
+  - lbs:
+    name: Location Based Services
+    percentage: 40%
+    years: 4 years
+  - mobile:
+    name: Mobile Applications
+    percentage: 30%
+    years: 3 years
+  - ai:
+    name: Artificial Intelligence
+    percentage: 25%
     years: 2.5 years
 processSkills:
-  - agile:
-    name: Agile Project Management
-    percentage: 100%
-    years: 5 years
-  - coach:
-    name: Coaching
-    percentage: 100%
-    years: 5 years
   - process:
     name: Kanban and Scrum
     percentage: 100%
-    years: 5 years
-  - error:
-    name: Error and quality Management
-    percentage: 80%
-    years: 4 years
+    years: 9 years
+  - coach:
+    name: Coaching
+    percentage: 70%
+    years: 7 years
   - planning:
     name: Planning and prioritizing
     percentage: 60%
-    years: 3 years
+    years: 6 years
+  - agile:
+    name: Agile Project Management
+    percentage: 50%
+    years: 5 years
+  - error:
+    name: Error and quality Management
+    percentage: 40%
+    years: 4 years
   - leader:
     name: Team Leading
-    percentage: 60%
+    percentage: 30%
     years: 3 years
   - coordinate:
     name: Coordinating and Organizing
-    percentage: 60%
+    percentage: 30%
     years: 3 years
   - scrumm:
     name: Scrum Master
     percentage: 20%
-    years: 1 year
+    years: 2 year
 otherSkills:
-  - write:
-    name: Creative Writing
-    percentage: 100%
-    years: 5 years
-  - archery:
-    name: Archery
-    percentage: 80%
-    years: 4 years
   - ides:
-    name: IDEs Eclipse, IntelliJ and Atom
-    percentage: 80%
-    years: 4 years
+    name: IDEs Eclipse, IntelliJ and Atom (with Debugging)
+    percentage: 100%
+    years: 8 years
   - jira:
     name: JIRA
-    percentage: 80%
-    years: 4 years
+    percentage: 100%
+    years: 8 years
   - jenkins:
     name: Jenkins
-    percentage: 60%
-    years: 3 years
+    percentage: 80%
+    years: 7 years
   - maven:
     name: Maven, Helm and NPM
-    percentage: 60%
-    years: 3 years
-  - product:
-    name: Product Specification
-    percentage: 60%
-    years: 3 years
+    percentage: 80%
+    years: 7 years
   - techdoc:
     name: Technical Documentation
-    percentage: 40%
-    years: 2 year
+    percentage: 60%
+    years: 6 year
+  - archery:
+    name: Archery
+    percentage: 60%
+    years: 6 years
+  - write:
+    name: Creative Writing
+    percentage: 50%
+    years: 5 years
+  - product:
+    name: Product Specification
+    percentage: 50%
+    years: 5 years
   - kubernetes:
     name: Kubernetes
+    percentage: 30%
+    years: 3 years
+  - techdebt:
+    name: Technical Debt
     percentage: 20%
-    years: 1 year
-#  - android:
-#    name: Android
-#    percentage: 8%
-#    years: ½ year
-#  - security:
-#    name: Security
-#    percentage: 8%
-#    years: ½ year
+    years: 2 years
 languageSkills:
   - pt:
     name: Portuguese
-    proficiency: Native proficiency
+    proficiency: Native
   - en:
     name: English
-    proficiency: Full professional proficiency
+    proficiency: Fluent
   - de:
     name: German
-    proficiency: Professional working proficiency
+    proficiency: Proficient
+  - es:
+    name: Spanish
+    proficiency: Conversational
   - sv:
     name: Swedish
-    proficiency: Elementary proficiency
+    proficiency: Elementary
