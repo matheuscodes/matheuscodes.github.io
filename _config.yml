@@ -1,7 +1,7 @@
 # Site settings
 title: Matheus Borges Teixeira
 description: Matheus' Profile
-favicon: /assets/img/avatar.JPG
+favicon: /assets/img/IMG_20241104_115933022.jpg
 baseurl:
 url: http://ddbullfrog.com
 rss_url: /pages/atom.xml
@@ -23,9 +23,7 @@ author:
   address: Berlin, Germany
   email: matheus.bt@gmail.com
   link: http://matheuswrites.wordpress.com
-  xing: Matheus_BorgesTeixeira
   github: matheuscodes
   linkedin: matheusworks
-  twitter: matheuswrites
-  skype: matheusspeaks
-  gavatar: /assets/img/avatar.JPG
+  telegram: matheustexts
+  gavatar: /assets/img/IMG_20241104_115933022.jpg
