@@ -12,6 +12,18 @@ educationHistory:
     started: 2004
     duration: (2004 - 2008)
 courseHistory:
+  - f1:
+    title: Proprioception & Body Perception
+    duration: 09.2024
+    entity: Landessportbund Berlin e.V.
+  - f2:
+    title: Movement in everyday office life
+    duration: 09.2024
+    entity: Landessportbund Berlin e.V.
+  - f3:
+    title: Posture, Breathing & Mindfulness in Cardiac Sports
+    duration: 09.2024
+    entity: Landessportbund Berlin e.V.
   - basis:
     title: Basislehrgang Trainer Ausbildung
     duration: 11.2018 - 01.2019
