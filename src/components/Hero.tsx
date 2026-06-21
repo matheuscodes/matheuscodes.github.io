@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="hero-content container">
         <div className="hero-text">
           <p className="hero-greeting">Senior Software Engineer &amp; Technical Leader</p>
-          <h1 className="hero-name">Matheus Borges<br />Teixeira</h1>
+          <h1 className="hero-name">Matheus Borges Teixeira</h1>
           <p className="hero-subtitle">Backend &amp; Platform Engineering · Java · Kotlin · TypeScript · Python · AWS</p>
           <p className="hero-bio">
             Senior Software Engineer and Technical Leader with 15+ years of experience building cloud-native

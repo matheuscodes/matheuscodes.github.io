@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { skillCategories, languages } from '../data/skills'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 import './Skills.css'
 
 const CIRCUMFERENCE = 220
@@ -105,28 +106,7 @@ function LanguageRing({ name, level, percentage }: { name: string; level: string
 }
 
 export default function Skills() {
-  const sectionRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    const section = sectionRef.current
-    if (!section) return
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible')
-          }
-        })
-      },
-      { threshold: 0.1 }
-    )
-
-    const animEls = section.querySelectorAll('.animate-on-scroll')
-    animEls.forEach((el) => observer.observe(el))
-
-    return () => observer.disconnect()
-  }, [])
+  const sectionRef = useScrollReveal<HTMLElement>()
 
   return (
     <section className="skills-section" id="skills" ref={sectionRef}>

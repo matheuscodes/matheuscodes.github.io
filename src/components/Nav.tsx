@@ -22,6 +22,7 @@ export default function Nav() {
       <div className="nav-inner">
         <a href="#hero" className="nav-brand">Matheus Borges Teixeira</a>
         <button
+          type="button"
           className="nav-toggle"
           aria-label="Toggle menu"
           onClick={() => setOpen(!open)}

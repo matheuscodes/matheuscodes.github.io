@@ -1,29 +1,11 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import { degrees, courses, achievements } from '../data/education'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 import './Education.css'
 
 export default function Education() {
   const [coursesOpen, setCoursesOpen] = useState(false)
-  const sectionRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    const section = sectionRef.current
-    if (!section) return
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible')
-          }
-        })
-      },
-      { threshold: 0.1 }
-    )
-
-    section.querySelectorAll('.animate-on-scroll').forEach((el) => observer.observe(el))
-    return () => observer.disconnect()
-  }, [])
+  const sectionRef = useScrollReveal<HTMLElement>()
 
   return (
     <section className="education-section" id="education" ref={sectionRef}>
@@ -52,6 +34,7 @@ export default function Education() {
 
         <div className="accordion animate-on-scroll">
           <button
+            type="button"
             className="accordion-header"
             onClick={() => setCoursesOpen(!coursesOpen)}
             aria-expanded={coursesOpen}
