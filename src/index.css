@@ -77,8 +77,8 @@ img {
 }
 
 .section-icon {
-  color: var(--color-accent);
-  font-size: 1.8rem;
+  color: var(--color-primary);
+  font-size: 1.4rem;
 }
 
 section {

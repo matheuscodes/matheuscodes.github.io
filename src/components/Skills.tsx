@@ -133,7 +133,7 @@ export default function Skills() {
       <div className="container">
         <div className="skills-header animate-on-scroll">
           <h2 className="section-title" style={{ justifyContent: 'center' }}>
-            <span className="section-icon">🌱</span>
+            <i className="fas fa-code section-icon" aria-hidden="true" />
             Skills
           </h2>
           <p className="section-subtitle">Technologies and domains I work with</p>
@@ -143,7 +143,7 @@ export default function Skills() {
           {skillCategories.map((cat) => (
             <div key={cat.category} className="skills-category animate-on-scroll">
               <h3 className="skills-category-title">
-                <span>{cat.icon}</span> {cat.category}
+                <i className={`${cat.icon} section-icon`} aria-hidden="true" /> {cat.category}
               </h3>
               {cat.skills.map((skill) => (
                 <SkillBar key={skill.name} {...skill} />

@@ -48,10 +48,10 @@ export const courses: Course[] = [
 ]
 
 export const achievements: Achievement[] = [
-  { title: 'Nokia Achievement Award', year: '2012', icon: '🏆' },
-  { title: 'Brazilian Site Organizer — Global Game Jam', year: '2009', icon: '🎮' },
-  { title: 'Published at 16th SIICUSP — Java/CORBA distributed game', year: '2008', icon: '📄' },
-  { title: 'Runner Up, 5th Latin American Robotics Competition', year: '2008', icon: '🤖' },
-  { title: 'Elected Student Representative (Computing Dept Council)', year: '2007–2008', icon: '🗳️' },
-  { title: 'Published at 14th SIICUSP — Genetic Algorithms for Multi-agent Systems', year: '2006', icon: '📄' },
+  { title: 'Nokia Achievement Award', year: '2012', icon: 'fas fa-trophy' },
+  { title: 'Brazilian Site Organizer — Global Game Jam', year: '2009', icon: 'fas fa-gamepad' },
+  { title: 'Published at 16th SIICUSP — Java/CORBA distributed game', year: '2008', icon: 'fas fa-file-alt' },
+  { title: 'Runner Up, 5th Latin American Robotics Competition', year: '2008', icon: 'fas fa-robot' },
+  { title: 'Elected Student Representative (Computing Dept Council)', year: '2007–2008', icon: 'fas fa-users' },
+  { title: 'Published at 14th SIICUSP — Genetic Algorithms for Multi-agent Systems', year: '2006', icon: 'fas fa-file-alt' },
 ]

@@ -6,7 +6,7 @@ import './Timeline.css'
 function TimelineEntry({ exp, index }: { exp: Experience; index: number }) {
   const [open, setOpen] = useState(false)
   const dotRef = useRef<HTMLDivElement>(null)
-  const cardRef = useRef<HTMLDivElement>(null)
+  const cardRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -33,13 +33,18 @@ function TimelineEntry({ exp, index }: { exp: Experience; index: number }) {
         className={`timeline-dot${exp.isCurrent ? ' current' : ''}`}
         style={{ transitionDelay: `${index * 0.05}s` }}
       />
-      <div
+      <article
         ref={cardRef}
         className="slide-from-right timeline-card"
         style={{ transitionDelay: `${index * 0.05}s` }}
-        onClick={() => setOpen(!open)}
       >
-        <div className="timeline-card-header">
+        <button
+          type="button"
+          className="timeline-card-header"
+          onClick={() => setOpen(!open)}
+          aria-expanded={open}
+          aria-label={`${open ? 'Collapse' : 'Expand'} details for ${exp.title} at ${exp.company}`}
+        >
           <div>
             <div className="timeline-meta">
               <span className="timeline-date">
@@ -62,10 +67,10 @@ function TimelineEntry({ exp, index }: { exp: Experience; index: number }) {
               )}
             </div>
             <div className="timeline-title">{exp.title}</div>
-            <div className="timeline-location">📍 {exp.location}</div>
+            <div className="timeline-location"><i className="fas fa-map-marker-alt" aria-hidden="true" /> {exp.location}</div>
           </div>
-          <span className={`timeline-toggle${open ? ' open' : ''}`}>▾</span>
-        </div>
+          <i className={`fas fa-chevron-down timeline-toggle${open ? ' open' : ''}`} aria-hidden="true" />
+        </button>
 
         <div className="timeline-keywords">
           {exp.keywords.map((kw) => (
@@ -77,8 +82,8 @@ function TimelineEntry({ exp, index }: { exp: Experience; index: number }) {
           <p className="timeline-description">{exp.description}</p>
           {exp.highlights.length > 0 && (
             <ul className="timeline-highlights">
-              {exp.highlights.map((h, i) => (
-                <li key={i}>{h}</li>
+              {exp.highlights.map((h) => (
+                <li key={h}>{h}</li>
               ))}
             </ul>
           )}
@@ -88,13 +93,12 @@ function TimelineEntry({ exp, index }: { exp: Experience; index: number }) {
               target="_blank"
               rel="noopener noreferrer"
               className="timeline-website"
-              onClick={(e) => e.stopPropagation()}
             >
-              🔗 Visit website
+              <i className="fas fa-external-link-alt" aria-hidden="true" /> Visit website
             </a>
           )}
         </div>
-      </div>
+      </article>
     </div>
   )
 }
@@ -105,7 +109,7 @@ export default function Timeline() {
       <div className="container">
         <div className="timeline-header animate-on-scroll">
           <h2 className="section-title" style={{ justifyContent: 'center' }}>
-            <span className="section-icon">🌿</span>
+            <i className="fas fa-briefcase section-icon" aria-hidden="true" />
             Work Experience
           </h2>
           <p className="section-subtitle">20 years building software across 3 continents</p>

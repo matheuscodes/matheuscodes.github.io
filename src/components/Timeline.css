@@ -77,7 +77,6 @@
   border-left: 4px solid var(--color-accent);
   box-shadow: var(--shadow-sm);
   transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
-  cursor: pointer;
   overflow: hidden;
 }
 
@@ -93,6 +92,11 @@
   grid-template-columns: 1fr auto;
   align-items: start;
   gap: 1rem;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
 }
 
 .timeline-meta {
@@ -146,10 +150,11 @@
 
 .timeline-toggle {
   color: var(--color-accent);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   line-height: 1;
   transition: transform 0.3s ease;
   flex-shrink: 0;
+  margin-top: 0.15rem;
 }
 
 .timeline-toggle.open {

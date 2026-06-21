@@ -41,6 +41,7 @@
 
 .degree-icon {
   font-size: 2rem;
+  color: var(--color-primary);
   margin-bottom: 1rem;
 }
 
@@ -200,7 +201,9 @@
 
 .achievement-icon {
   font-size: 1.3rem;
+  color: var(--color-primary);
   flex-shrink: 0;
+  margin-top: 0.1rem;
 }
 
 .achievement-text {

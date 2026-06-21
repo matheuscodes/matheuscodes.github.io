@@ -30,7 +30,7 @@ export default function Education() {
       <div className="container">
         <div className="education-header animate-on-scroll">
           <h2 className="section-title" style={{ justifyContent: 'center' }}>
-            <span className="section-icon">🎓</span>
+            <i className="fas fa-graduation-cap section-icon" aria-hidden="true" />
             Education
           </h2>
           <p className="section-subtitle">Academic background and professional development</p>
@@ -39,12 +39,12 @@ export default function Education() {
         <div className="degrees-grid">
           {degrees.map((deg) => (
             <div key={deg.institution} className="degree-card animate-on-scroll">
-              <div className="degree-icon">🏛️</div>
+              <div className="degree-icon"><i className="fas fa-university" aria-hidden="true" /></div>
               <div className="degree-name">{deg.degree}</div>
               <div className="degree-field">{deg.field}</div>
               <div className="degree-institution">{deg.institution}</div>
               <div className="degree-meta">
-                📍 {deg.location} · {deg.startYear}–{deg.endYear}
+                <i className="fas fa-map-marker-alt" aria-hidden="true" /> {deg.location} · {deg.startYear}–{deg.endYear}
               </div>
             </div>
           ))}
@@ -56,8 +56,8 @@ export default function Education() {
             onClick={() => setCoursesOpen(!coursesOpen)}
             aria-expanded={coursesOpen}
           >
-            <span className="accordion-title">📚 Courses & Certificates</span>
-            <span className={`accordion-toggle${coursesOpen ? ' open' : ''}`}>▾</span>
+            <span className="accordion-title"><i className="fas fa-book" aria-hidden="true" /> Courses &amp; Certificates</span>
+            <i className={`fas fa-chevron-down accordion-toggle${coursesOpen ? ' open' : ''}`} aria-hidden="true" />
           </button>
           <div className={`accordion-body${coursesOpen ? ' open' : ''}`}>
             <ul className="course-list">
@@ -73,11 +73,11 @@ export default function Education() {
         </div>
 
         <div className="animate-on-scroll">
-          <h3 className="achievements-title">🏆 Notable Achievements</h3>
+          <h3 className="achievements-title"><i className="fas fa-trophy" aria-hidden="true" /> Notable Achievements</h3>
           <div className="achievements-grid">
             {achievements.map((ach) => (
               <div key={ach.title} className="achievement-item animate-on-scroll">
-                <span className="achievement-icon">{ach.icon}</span>
+                <i className={`${ach.icon} achievement-icon`} aria-hidden="true" />
                 <div className="achievement-text">
                   <div className="achievement-title-text">{ach.title}</div>
                   <div className="achievement-year">{ach.year}</div>

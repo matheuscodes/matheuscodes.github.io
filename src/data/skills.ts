@@ -19,7 +19,7 @@ export interface Language {
 export const skillCategories: SkillCategory[] = [
   {
     category: 'Programming',
-    icon: '💻',
+    icon: 'fas fa-laptop-code',
     skills: [
       { name: 'JavaScript / TypeScript', level: 95, years: '9+ yrs' },
       { name: 'Node.js', level: 95, years: '9+ yrs' },
@@ -35,7 +35,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     category: 'Systems & Architecture',
-    icon: '🏗️',
+    icon: 'fas fa-sitemap',
     skills: [
       { name: 'Web / Online Applications', level: 95, years: '9+ yrs' },
       { name: 'Software Architecture Design', level: 80, years: '8 yrs' },
@@ -51,7 +51,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     category: 'Process & People',
-    icon: '🤝',
+    icon: 'fas fa-users',
     skills: [
       { name: 'Kanban & Scrum', level: 95, years: '9+ yrs' },
       { name: 'Coaching & Mentoring', level: 70, years: '7 yrs' },
